@@ -1,0 +1,433 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppointmentVC"
+provides-nominal:
+- "11appointment13AppointmentVCC"
+provides-member:
+- ["11appointment13AppointmentVCC", ""]
+provides-dynamic-lookup:
+- "addAppointment"
+- "calenderView"
+- "employeeCollectionView"
+- "nextAppointment"
+- "nextWeek"
+- "previousAppointment"
+- "previousWeek"
+- "scheduleCollectionView"
+- "searchBar"
+- "viewDidLoad"
+depends-top-level:
+- "AppointmentVC"
+- "AppointmentVCPresenter"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Date"
+- "FSCalendar"
+- "UICollectionView"
+- "UITextField"
+- "UIViewController"
+depends-member:
+- ["11appointment13AppointmentVCC", "AppointmentVCPresenter"]
+- !private ["11appointment13AppointmentVCC", "Date"]
+- ["11appointment13AppointmentVCC", "FSCalendar"]
+- ["11appointment13AppointmentVCC", "UICollectionView"]
+- ["11appointment13AppointmentVCC", "UITextField"]
+- ["11appointment13AppointmentVCC", "addAppointment"]
+- ["11appointment13AppointmentVCC", "calenderView"]
+- ["11appointment13AppointmentVCC", "deinit"]
+- ["11appointment13AppointmentVCC", "employeeCollectionView"]
+- ["11appointment13AppointmentVCC", "init"]
+- ["11appointment13AppointmentVCC", "nextAppointment"]
+- ["11appointment13AppointmentVCC", "nextWeek"]
+- ["11appointment13AppointmentVCC", "presenter"]
+- ["11appointment13AppointmentVCC", "previousAppointment"]
+- ["11appointment13AppointmentVCC", "previousWeek"]
+- ["11appointment13AppointmentVCC", "scheduleCollectionView"]
+- ["11appointment13AppointmentVCC", "searchBar"]
+- !private ["11appointment13AppointmentVCC", "setupView"]
+- ["11appointment13AppointmentVCC", "viewDidLoad"]
+- !private ["11appointment22AppointmentVCPresenterC", "deinit"]
+- !private ["11appointment22AppointmentVCPresenterC", "getAppointment"]
+- !private ["11appointment22AppointmentVCPresenterC", "init"]
+- !private ["11appointment22AppointmentVCPresenterC", "moveCurrentPage"]
+- !private ["11appointment22AppointmentVCPresenterC", "nextAppointment"]
+- !private ["11appointment22AppointmentVCPresenterC", "previousAppointment"]
+- !private ["11appointment15AppointmentViewP", "getAppointment"]
+- !private ["11appointment15AppointmentViewP", "init"]
+- !private ["11appointment15AppointmentViewP", "moveCurrentPage"]
+- !private ["11appointment15AppointmentViewP", "nextAppointment"]
+- !private ["11appointment15AppointmentViewP", "previousAppointment"]
+- !private ["11appointment30AppointmentViewPresenterOutputP", "AppointmentVCPresenter"]
+- !private ["11appointment30AppointmentViewPresenterOutputP", "Date"]
+- !private ["11appointment30AppointmentViewPresenterOutputP", "presenter"]
+- !private ["11appointment30AppointmentViewPresenterOutputP", "setupView"]
+- !private ["s7CVarArgP", "AppointmentVCPresenter"]
+- !private ["s7CVarArgP", "Date"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "presenter"]
+- !private ["s7CVarArgP", "setupView"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["SL", "getCurrentDate"]
+- !private ["s28CustomDebugStringConvertibleP", "AppointmentVCPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "getAppointment"]
+- !private ["s28CustomDebugStringConvertibleP", "getCurrentDate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "moveCurrentPage"]
+- !private ["s28CustomDebugStringConvertibleP", "nextAppointment"]
+- !private ["s28CustomDebugStringConvertibleP", "presenter"]
+- !private ["s28CustomDebugStringConvertibleP", "previousAppointment"]
+- !private ["s28CustomDebugStringConvertibleP", "setupView"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "getAppointment"]
+- !private ["s17CustomReflectableP", "getCurrentDate"]
+- !private ["s17CustomReflectableP", "moveCurrentPage"]
+- !private ["s17CustomReflectableP", "nextAppointment"]
+- !private ["s17CustomReflectableP", "previousAppointment"]
+- !private ["s23CustomStringConvertibleP", "AppointmentVCPresenter"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "getCurrentDate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "presenter"]
+- !private ["s23CustomStringConvertibleP", "setupView"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation4DateV", "getCurrentDate"]
+- !private ["Se", "getAppointment"]
+- !private ["Se", "getCurrentDate"]
+- !private ["Se", "moveCurrentPage"]
+- !private ["Se", "nextAppointment"]
+- !private ["Se", "previousAppointment"]
+- !private ["SE", "getAppointment"]
+- !private ["SE", "getCurrentDate"]
+- !private ["SE", "moveCurrentPage"]
+- !private ["SE", "nextAppointment"]
+- !private ["SE", "previousAppointment"]
+- !private ["SQ", "AppointmentVCPresenter"]
+- !private ["SQ", "Date"]
+- ["SQ", ""]
+- !private ["SQ", "getAppointment"]
+- !private ["SQ", "getCurrentDate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "moveCurrentPage"]
+- !private ["SQ", "nextAppointment"]
+- !private ["SQ", "presenter"]
+- !private ["SQ", "previousAppointment"]
+- !private ["SQ", "setupView"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "getAppointment"]
+- !private ["s23ExpressibleByNilLiteralP", "moveCurrentPage"]
+- !private ["s23ExpressibleByNilLiteralP", "nextAppointment"]
+- !private ["s23ExpressibleByNilLiteralP", "previousAppointment"]
+- !private ["So18FSCalendarDelegateP", "AppointmentVCPresenter"]
+- !private ["So18FSCalendarDelegateP", "Date"]
+- !private ["So18FSCalendarDelegateP", "presenter"]
+- !private ["So18FSCalendarDelegateP", "setupView"]
+- !private ["SH", "AppointmentVCPresenter"]
+- !private ["SH", "Date"]
+- ["SH", ""]
+- !private ["SH", "getAppointment"]
+- !private ["SH", "getCurrentDate"]
+- !private ["SH", "init"]
+- !private ["SH", "moveCurrentPage"]
+- !private ["SH", "nextAppointment"]
+- !private ["SH", "presenter"]
+- !private ["SH", "previousAppointment"]
+- !private ["SH", "setupView"]
+- !private ["SH", "viewDidLoad"]
+- !private ["So8NSCodingP", "AppointmentVCPresenter"]
+- !private ["So8NSCodingP", "Date"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "presenter"]
+- !private ["So8NSCodingP", "setupView"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "AppointmentVCPresenter"]
+- !private ["So26NSExtensionRequestHandlingP", "Date"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "presenter"]
+- !private ["So26NSExtensionRequestHandlingP", "setupView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AppointmentVCPresenter"]
+- !private ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "FSCalendar"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "addAppointment"]
+- ["So8NSObjectC", "calenderView"]
+- ["So8NSObjectC", "employeeCollectionView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nextAppointment"]
+- ["So8NSObjectC", "nextWeek"]
+- ["So8NSObjectC", "presenter"]
+- ["So8NSObjectC", "previousAppointment"]
+- ["So8NSObjectC", "previousWeek"]
+- ["So8NSObjectC", "scheduleCollectionView"]
+- ["So8NSObjectC", "searchBar"]
+- !private ["So8NSObjectC", "setupView"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "AppointmentVCPresenter"]
+- !private ["So8NSObjectP", "Date"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "presenter"]
+- !private ["So8NSObjectP", "setupView"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "getAppointment"]
+- !private ["Sq", "moveCurrentPage"]
+- !private ["Sq", "nextAppointment"]
+- !private ["Sq", "previousAppointment"]
+- !private ["10Foundation20ReferenceConvertibleP", "getCurrentDate"]
+- !private ["So21UIAppearanceContainerP", "AppointmentVCPresenter"]
+- !private ["So21UIAppearanceContainerP", "Date"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "presenter"]
+- !private ["So21UIAppearanceContainerP", "setupView"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So26UICollectionViewDataSourceP", "AppointmentVCPresenter"]
+- !private ["So26UICollectionViewDataSourceP", "Date"]
+- !private ["So26UICollectionViewDataSourceP", "presenter"]
+- !private ["So26UICollectionViewDataSourceP", "setupView"]
+- !private ["So24UICollectionViewDelegateP", "AppointmentVCPresenter"]
+- !private ["So24UICollectionViewDelegateP", "Date"]
+- !private ["So24UICollectionViewDelegateP", "presenter"]
+- !private ["So24UICollectionViewDelegateP", "setupView"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "AppointmentVCPresenter"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "Date"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "presenter"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "setupView"]
+- !private ["So18UIContentContainerP", "AppointmentVCPresenter"]
+- !private ["So18UIContentContainerP", "Date"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "presenter"]
+- !private ["So18UIContentContainerP", "setupView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "AppointmentVCPresenter"]
+- !private ["So18UIFocusEnvironmentP", "Date"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "presenter"]
+- !private ["So18UIFocusEnvironmentP", "setupView"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "AppointmentVCPresenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "Date"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "presenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupView"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AppointmentVCPresenter"]
+- !private ["So11UIResponderC", "Date"]
+- ["So11UIResponderC", "FSCalendar"]
+- ["So11UIResponderC", "UICollectionView"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "addAppointment"]
+- ["So11UIResponderC", "calenderView"]
+- ["So11UIResponderC", "employeeCollectionView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nextAppointment"]
+- ["So11UIResponderC", "nextWeek"]
+- ["So11UIResponderC", "presenter"]
+- ["So11UIResponderC", "previousAppointment"]
+- ["So11UIResponderC", "previousWeek"]
+- ["So11UIResponderC", "scheduleCollectionView"]
+- ["So11UIResponderC", "searchBar"]
+- !private ["So11UIResponderC", "setupView"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AppointmentVCPresenter"]
+- !private ["So30UIResponderStandardEditActionsP", "Date"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "presenter"]
+- !private ["So30UIResponderStandardEditActionsP", "setupView"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "AppointmentVCPresenter"]
+- !private ["So20UIScrollViewDelegateP", "Date"]
+- !private ["So20UIScrollViewDelegateP", "presenter"]
+- !private ["So20UIScrollViewDelegateP", "setupView"]
+- !private ["So16UIStateRestoringP", "AppointmentVCPresenter"]
+- !private ["So16UIStateRestoringP", "Date"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "presenter"]
+- !private ["So16UIStateRestoringP", "setupView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "AppointmentVCPresenter"]
+- !private ["So18UITraitEnvironmentP", "Date"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "presenter"]
+- !private ["So18UITraitEnvironmentP", "setupView"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AppointmentVCPresenter"]
+- !private ["So23UIUserActivityRestoringP", "Date"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "presenter"]
+- !private ["So23UIUserActivityRestoringP", "setupView"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "AppointmentVCPresenter"]
+- !private ["So16UIViewControllerC", "Date"]
+- ["So16UIViewControllerC", "FSCalendar"]
+- ["So16UIViewControllerC", "UICollectionView"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "addAppointment"]
+- ["So16UIViewControllerC", "calenderView"]
+- ["So16UIViewControllerC", "employeeCollectionView"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nextAppointment"]
+- ["So16UIViewControllerC", "nextWeek"]
+- ["So16UIViewControllerC", "presenter"]
+- ["So16UIViewControllerC", "previousAppointment"]
+- ["So16UIViewControllerC", "previousWeek"]
+- ["So16UIViewControllerC", "scheduleCollectionView"]
+- ["So16UIViewControllerC", "searchBar"]
+- !private ["So16UIViewControllerC", "setupView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "getCurrentDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AppointmentVCPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AppointmentVCPresenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Date"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "getAppointment"]
+- !private ["s21_ObjectiveCBridgeableP", "getCurrentDate"]
+- !private ["s21_ObjectiveCBridgeableP", "moveCurrentPage"]
+- !private ["s21_ObjectiveCBridgeableP", "nextAppointment"]
+- !private ["s21_ObjectiveCBridgeableP", "previousAppointment"]
+depends-nominal:
+- "11appointment13AppointmentVCC"
+- !private "11appointment22AppointmentVCPresenterC"
+- !private "11appointment15AppointmentViewP"
+- !private "11appointment30AppointmentViewPresenterOutputP"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So18FSCalendarDelegateP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/PKHUD.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-umbrella.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar-umbrella.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarAppearance.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCell.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendar.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDynamicHeader.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarStickyHeader.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCalculator.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarTransitionCoordinator.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarExtensions.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarConstants.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Headers/PKHUD-Swift.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionViewLayout.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarSeparatorDecorationView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarHeaderView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarWeekdayView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationFactory.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationProxy.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/PKHUD/PKHUD.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/FSCalendar/FSCalendar.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0ce7513bb55210051382b97361a44f60"

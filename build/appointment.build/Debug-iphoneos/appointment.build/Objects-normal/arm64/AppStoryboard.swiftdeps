@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppStoryboard"
+provides-nominal:
+- "11appointment13AppStoryboardO"
+provides-member:
+- ["11appointment13AppStoryboardO", ""]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "storyboardID"]
+- ["So16UIViewControllerC", "instantiate"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AppStoryboard"
+- !private "Bundle"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "UIStoryboard"
+- "UIViewController"
+- !private "_findStringSwitchCase"
+- !private "fatalError"
+- !private "~="
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "main"]
+- ["11appointment13AppStoryboardO", "=="]
+- !private ["11appointment13AppStoryboardO", "Bundle"]
+- ["11appointment13AppStoryboardO", "Int"]
+- ["11appointment13AppStoryboardO", "Main"]
+- ["11appointment13AppStoryboardO", "Map"]
+- ["11appointment13AppStoryboardO", "RawValue"]
+- ["11appointment13AppStoryboardO", "String"]
+- ["11appointment13AppStoryboardO", "UIStoryboard"]
+- ["11appointment13AppStoryboardO", "UIViewController"]
+- ["11appointment13AppStoryboardO", "_Default_RawValue"]
+- !private ["11appointment13AppStoryboardO", "_findStringSwitchCase"]
+- ["11appointment13AppStoryboardO", "_rawHashValue"]
+- ["11appointment13AppStoryboardO", "deinit"]
+- !private ["11appointment13AppStoryboardO", "fatalError"]
+- ["11appointment13AppStoryboardO", "hash"]
+- ["11appointment13AppStoryboardO", "hashValue"]
+- ["11appointment13AppStoryboardO", "init"]
+- ["11appointment13AppStoryboardO", "initialViewController"]
+- ["11appointment13AppStoryboardO", "instance"]
+- ["11appointment13AppStoryboardO", "rawValue"]
+- ["11appointment13AppStoryboardO", "viewController"]
+- !private ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateInitialViewController"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "storyboardID"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateInitialViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboardID"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateInitialViewController"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "storyboardID"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SQ", "=="]
+- !private ["SQ", "Bundle"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "UIStoryboard"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "instance"]
+- !private ["SQ", "instantiateInitialViewController"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "main"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "storyboardID"]
+- !private ["SQ", "viewController"]
+- ["SH", "=="]
+- !private ["SH", "Bundle"]
+- ["SH", "RawValue"]
+- !private ["SH", "UIStoryboard"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "fatalError"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "instance"]
+- !private ["SH", "instantiateInitialViewController"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "main"]
+- ["SH", "rawValue"]
+- !private ["SH", "storyboardID"]
+- !private ["SH", "viewController"]
+- !private ["So8NSCodingP", "storyboardID"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboardID"]
+- ["So8NSObjectC", "AppStoryboard"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instantiate"]
+- !private ["So8NSObjectC", "instantiateInitialViewController"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "storyboardID"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateInitialViewController"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "storyboardID"]
+- ["SY", "=="]
+- !private ["SY", "Bundle"]
+- ["SY", "RawValue"]
+- !private ["SY", "UIStoryboard"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "fatalError"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "instance"]
+- ["SY", "rawValue"]
+- !private ["SY", "viewController"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So21UIAppearanceContainerP", "storyboardID"]
+- !private ["So18UIContentContainerP", "storyboardID"]
+- !private ["So18UIFocusEnvironmentP", "storyboardID"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboardID"]
+- ["So11UIResponderC", "AppStoryboard"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "instantiate"]
+- ["So11UIResponderC", "storyboardID"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboardID"]
+- !private ["So16UIStateRestoringP", "storyboardID"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateInitialViewController"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "storyboardID"]
+- !private ["So23UIUserActivityRestoringP", "storyboardID"]
+- ["So16UIViewControllerC", "AppStoryboard"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "instantiate"]
+- ["So16UIViewControllerC", "storyboardID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateInitialViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboardID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateInitialViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storyboardID"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- "11appointment13AppStoryboardO"
+- !private "So8NSBundleC"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "SQ"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "SY"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendar-umbrella.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarAppearance.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarCell.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendar.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarDynamicHeader.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarStickyHeader.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarCalculator.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarTransitionCoordinator.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarExtensions.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarConstants.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionViewLayout.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarSeparatorDecorationView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarCollectionView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarHeaderView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarWeekdayView.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationFactory.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendarDelegationProxy.h"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/appointment/build/Debug-iphoneos/FSCalendar/FSCalendar.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9cdfaf4a28fba2bfbd0f9bddff6cbe9"

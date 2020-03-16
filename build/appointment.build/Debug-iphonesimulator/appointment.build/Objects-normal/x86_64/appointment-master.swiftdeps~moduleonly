@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "773ac7901d6df1c5fb41e0f3bca0edf4"
+build_time: [1584318104, 216192000]
+inputs:
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/AppointmentVC.swift": [1584317911, 672469317]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/Presenter/AppointmentVCPresenter.swift": [1584318104, 129136600]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Extensions/AppStoryboard.swift": [1584204111, 814297661]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/AppointmentVC+Presenter.swift": [1584317858, 450033343]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Extensions/UITableViewExtension.swift": [1584204045, 852771718]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/Cells/employeeDataCell.swift": [1584316013, 531502872]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/AppointmentVC+UICollectionView.swift": [1584316071, 372036396]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Extensions/ViewExtension.swift": [1584306878, 309995800]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Resources/AppDelegate.swift": [1584199248, 402098935]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Extensions/ErrorHandler.swift": [1584291149, 863413315]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/Interactor/AppointmentInteractor.swift": [1584313434, 817059457]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/Cells/DetailsCell.swift": [1584286614, 943085792]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/AppointmentVC+Calender.swift": [1584317648, 79839282]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Resources/SceneDelegate.swift": [1584199248, 411083654]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/Resources/NetworkRequest.swift": [1584309682, 166930817]
+  "/Users/MohamedNawar/Desktop/appointment/appointment/ApplicationModules/MainWeatherView/View/Cells/employeeTableViewCell.swift": [1584292126, 816381614]

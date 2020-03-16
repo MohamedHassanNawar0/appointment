@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "091c8ac416624f1d28fa08700e49ef13"
+build_time: [1584304318, 36914000]
+inputs:
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/FrameView.swift": [1584304314, 557856803]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/HUD.swift": [1584304314, 560929700]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUD.swift": [1584304314, 558596640]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDAnimating.swift": [1584304314, 557442953]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDAnimation.swift": [1584304314, 556967498]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDAssets.swift": [1584304314, 559576080]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDErrorView.swift": [1584304314, 569112874]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDProgressView.swift": [1584304314, 562825371]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDRotatingImageView.swift": [1584304314, 561403999]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDSquareBaseView.swift": [1584304314, 568764546]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDSuccessView.swift": [1584304314, 559029525]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDSystemActivityIndicatorView.swift": [1584304314, 556548148]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDTextView.swift": [1584304314, 560490526]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/PKHUDWideBaseView.swift": [1584304314, 559997176]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/Window.swift": [1584304314, 561881117]
+  "/Users/MohamedNawar/Desktop/appointment/Pods/PKHUD/PKHUD/WindowRootViewController.swift": [1584304314, 562330260]
